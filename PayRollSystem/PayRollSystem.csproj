@@ -39,6 +39,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\PayrollDatabase.cs" />
+    <Compile Include="Logic\AddSalariedEmployee.cs" />
+    <Compile Include="Model\Employee.cs" />
+    <Compile Include="Model\PaymentClassification.cs" />
+    <Compile Include="Model\PaymentMethod.cs" />
+    <Compile Include="Model\PaymentSchedule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
